@@ -59,7 +59,7 @@ public class PoliticalPartyGuesser {
         System.out.println("Your political party affiliation is " + guessedParty);
 
         // Ask for political party affiliation and store data
-        System.out.println("Which political party do you affiliate with?");
+        System.out.println("Which political party do you affiliate with? Democratic Party or Republican Party or Libertarian Party or Green Party?");
         String partyAffiliation = scanner.nextLine();
         storeData(partyAffiliation, answers);
     }
