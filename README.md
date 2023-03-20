@@ -1,4 +1,4 @@
-# CS311-ArtificialIntelligence
+# CS311-Artificial Intelligence AI Survey Program Assignment
 ## About this Assignment
 Data mining is used by everyone who wants to learn more about their customers or members. It helps people make decisions about what to sell or what to promote. This assignment is to write a program using machine learning that will try to determine the political leaning of the user based on a survey.
 
