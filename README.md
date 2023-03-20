@@ -1,10 +1,10 @@
 # CS311-ArtificialIntelligence
-About this Assignment
+##About this Assignment
 Data mining is used by everyone who wants to learn more about their customers or members. It helps people make decisions about what to sell or what to promote. This assignment is to write a program using machine learning that will try to determine the political leaning of the user based on a survey.
 
 You will be tasked to write this program in either C++ or Java, whichever you feel more comfortable with.
 
-Prompt
+##Prompt
 The goal is for the program to be able to guess the user's political party before they reach the end of the survey. This will require your program to gather a substantial amount of data before it can make accurate guesses. In particular:
 
 1. You should begin by presenting the user with questions that contain answer options that differ based on their political beliefs.
