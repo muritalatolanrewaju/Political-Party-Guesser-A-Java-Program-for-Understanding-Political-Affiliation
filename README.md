@@ -1,25 +1,33 @@
-# CS311-Artificial Intelligence AI Survey Program Assignment
-## About this Assignment
-Data mining is used by everyone who wants to learn more about their customers or members. It helps people make decisions about what to sell or what to promote. This assignment is to write a program using machine learning that will try to determine the political leaning of the user based on a survey.
+# Political Party Guesser: A Java Program for Understanding Political Affiliation
 
-You will be tasked to write this program in either C++ or Java, whichever you feel more comfortable with.
+This repository contains a Java application, PoliticalPartyGuesser, which seeks to determine the political party a user might be affiliated with based on their answers to a few questions. The program leverages machine learning principles to guess the political affiliation and learns from each interaction to improve its guessing capability.
 
-## Prompt
-The goal is for the program to be able to guess the user's political party before they reach the end of the survey. This will require your program to gather a substantial amount of data before it can make accurate guesses. In particular:
+## Program Description
 
-### 1. You should begin by presenting the user with questions that contain answer options that differ based on their political beliefs.
+PoliticalPartyGuesser is a command-line application that performs the following operations:
 
-Ex. What should the government do to help the poor?
-A. Make it easier to apply for assistance.
-B. Allow parents to use education funds for charter schools.
-C. Create welfare to work programs.
-D. Nothing.
-### 2. The last question should ask which political party they affiliate with. This way you will be able to gather and store data corresponding to the results you acquire. Create at least 4 political party storages.
+- Asks a series of questions related to political and social issues.
+- Records the user's answers and updates machine learning data.
+- Guesses the user's political party affiliation based on their answers.
+- Asks users to confirm their political party affiliation and stores their answers for future learning.
 
-### 3. As you gain more data on each political party, you should have a way of storing this information to create a program that will use this data to accurately survey users and guess their political affiliations.
+## Setup
 
-### 4. Some answers to questions correspond with more than one political party. Find a way to make your program advanced enough so that it can weigh answers with differing levels of intensity depending on which parties they correspond best with.
+To run the PoliticalPartyGuesser program, you must install Java on your machine. Follow these steps to run the program:
 
-### 5. Overall, for this assignment you will prepare data storage files, obtain and store data through the usage of questions, and then write code using machine learning to create a survey that will accurately guess a user's political party before they complete the survey.
+1. **Clone the repository**: Use `git clone <repository-url>` to clone this repository to your local machine.
+2. **Navigate to the cloned directory**: Use `cd <directory>` command to move into the directory of the cloned repository.
+3. **Compile the program**: Use `javac PoliticalPartyGuesser.java` to compile the Java program.
+4. **Run the program**: Use `java PoliticalPartyGuesser` to run the program.
 
-### 6. At the end of the assignment, you should submit a program that simply surveys a user and guesses their political party. The more advanced your program is, the faster and more accurately it will guess the user's political party affiliation.
+## Usage
+
+Upon successful compilation and execution of the program, you will be prompted to interact with the program via the command line. Follow the prompts to answer questions related to political and social issues.
+
+## Contribution
+
+If you're interested in contributing to this project, please submit a pull request or open an issue for discussion.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
